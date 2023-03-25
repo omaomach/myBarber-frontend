@@ -1,0 +1,30 @@
+body {
+    background-color: #2A272A;
+}
+
+.nav {
+    background-color: #2A272A;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 183px;
+}
+
+.nav-text {
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    margin-bottom: 80px;
+}
+
+.artist {
+    margin-left: 0px;
+}
+
+h4 {
+    margin-left: 42.5px;
+    color: #DADDE2;
+    ;
+}
