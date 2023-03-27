@@ -1,18 +1,39 @@
-import React from "react";
+import React, { useRef } from "react";
 import logo from '../assets/logo.png'
-import './Navbar.css'
+import "../styles/main.css";
+import { FaBars, FaTimes } from "react-icons/fa"
 
 function Navbar() {
+    const navRef = useRef();
+
+    const showNavbar = () => {
+        navRef.current.classList.toggle("responsive_nav")
+    }
+
     return (
-        <div className="nav">
+        <header>
             <img className="logo" src={logo} alt="logo"/>
-            <div className="nav-text">
+            <nav ref={navRef}>
+                <a href="/#">Find an Artist</a>
+                <a href="/#">Explore Tattoos</a>
+                <a href="/#">Learn About Tattoos</a>
+
+                <button className="nav-btn nav-close-btn" onClick={showNavbar}>
+                    <FaTimes />
+                </button>
+
+            </nav>
+            <button className="nav-btn" onClick={showNavbar}>
+                <FaBars />
+            </button>
+
+            {/* <div className="nav-text">
                 <h4 className="artist">Find an Artist</h4>
                 <h4>Tattoos</h4>
                 <h4>Learn</h4>
-            </div>
+            </div> */}
             
-        </div>
+        </header>
     )
 }
 
