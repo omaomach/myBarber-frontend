@@ -11,13 +11,13 @@ body {
     text-align: center;
 }
 
-.vertical-align-one p {
+#vertical-align-one-p {
     color: var(--textColor);
     padding-top: 1.4rem;
     font-size: xx-large;
 }
 
-.holder-1 p {
+#holder-1-p {
     color: var(--secondaryTextColor);
     padding-top: 0.7rem;
     font-size: larger;
@@ -56,11 +56,169 @@ body {
 
 .holder-2 {
     background-color: var(--secondaryColor);
-    width: 1200px;
+    width: 1000px;
     border-radius: 6px;
     height: 500px;
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
 }
+
+.holder-3 {
+    background-color: var(--mainColor);
+    width: 1500px;
+    height: 700px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.left-clients-holder {
+    background-color: var(--secondaryColor);
+    width: 630px;
+    height: 700px;
+    border-radius: 10px;
+    color: var(--textColor);
+    font-size: medium;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.left-clients-holder button {
+    margin-top: 30px;
+    background-color: var(--mainColor);
+    width: 200px;
+    height: 35px;
+    border: 1px solid var(--mainColor);
+    cursor: pointer;
+    border-radius: 12px;
+    color: var(--textColor);
+}
+
+#left-clients-holder-p {
+    color: var(--mainColor);
+    font-size: medium;
+    font-weight: bold;
+    padding-top: 6px;
+    
+}
+
+#left-clients-holder-p1 {
+    font-weight: lighter;
+    color: var(--mainColor);
+    padding-top: 6px;
+}
+
+.clients-text {
+    background-color: var(--mainColor);
+    width: 615px;
+    height: 525px;
+    border: 2px solid var(--secondaryColor);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+}
+
+.right-artists-holder {
+    background-color: var(--secondaryColor);
+    width: 630px;
+    height: 700px;
+    border-radius: 10px;
+    color: var(--textColor);
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.right-artists-holder button {
+    margin-top: 30px;
+    background-color: var(--mainColor);
+    width: 200px;
+    height: 35px;
+    border: 1px solid var(--mainColor);
+    cursor: pointer;
+    border-radius: 12px;
+    color: var(--textColor);
+}
+
+#right-artists-holder-p {
+    color: var(--mainColor);
+    font-size: medium;
+    font-weight: bold;
+    padding-top: 6px;
+}
+
+#right-artists-holder-p1 {
+    font-weight: lighter;
+    color: var(--mainColor);
+    padding-top: 6px;
+}
+
+.holder-4 {
+    background-color: var(--mainColor);
+    width: 1290px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#holder-4-p {
+    color: var(--mainColor);
+    font-size: medium;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+#holder-4-ink {
+    color: var(--mainColor);
+    font-size: medium;
+    font-weight: bold;
+    padding-top: 6px;
+}
+
+.get-inked-today {
+    background-color: var(--secondaryColor);
+    width: 420px;
+    height: 460px;
+    border-radius: 10px;
+    border: 1px solid var(--mainColor);
+    margin-left: 0;
+}
+
+.inked-today-text {
+    width: 400px;
+    height: 380px;
+    background-color: var(--mainColor);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8.5px;
+    border-radius: 10px;
+}
+
+.get-piercing-today {
+    background-color: var(--secondaryColor);
+    width: 420px;
+    height: 460px;
+    border-radius: 10px;
+    border: 1px solid var(--mainColor);
+    margin-left: 15px;
+}
+
+
+
+.access-shop-today {
+    background-color: var(--secondaryColor);
+    width: 420px;
+    height: 460px;
+    border-radius: 10px;
+    border: 1px solid var(--mainColor);
+    margin-left: 15px;
+}
+
 
