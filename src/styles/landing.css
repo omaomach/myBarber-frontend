@@ -299,6 +299,7 @@ body {
 #left-vision-header {
     font-size: xx-large;
     font-weight: bold;
+    margin-left: 30px;
 }
 
 .left-vision-text {
@@ -309,6 +310,7 @@ body {
 #left-vision-text-p {
     line-height: 1.3;
     margin-top: 15px;
+    margin-left: 30px;
     font-weight: bold;
     color: var(--secondaryTextColor);
 }
@@ -323,6 +325,7 @@ body {
     border-radius: 10px;
     color: var(--textColor);
     font-weight: bold;
+    margin-left: 30px;
 }
 
 .right-vision {
