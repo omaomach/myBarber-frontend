@@ -62,9 +62,50 @@ function Landing() {
 
                         </div>
                         <p id="holder-4-p">Checkout Our Shop</p>
-                        <p id="holder-4-ink">Find and purchase piercings, coil or rotary <br/>
-                        tattoo machines e.t.c</p>
+                        <p id="holder-4-ink">Find and purchase tattoo and piercing related items</p>
                     </div>
+                </div>
+                <p id="client-reviews-text">Our clients love us! Read what they have to say</p>
+                <div className="holder-5-reviews">
+                    <div className="reviews-card">
+                        <div className="reviews-text">
+                            <h1 id="reviews-comma">"</h1>
+                            <p id="reviews-p-text">I have never seen a platform that's completely free, where <br />
+                            creatives are given this much power to not only show <br />
+                            their work, learn, get hired for doing what they <br /> 
+                            enjoy and love. Ink Masters is the simply the best!!!</p>
+                        </div>
+                        <div className="user-info-review">
+
+                        </div>
+                    </div>
+
+                    <div className="reviews-card" id="reviews-card-2">
+                        <div className="reviews-text">
+                            <h1 id="reviews-comma">"</h1>
+                            <p id="reviews-p-text">I have never seen a platform that's completely free, where <br />
+                            creatives are given this much power to not only show <br />
+                            their work, learn, get hired for doing what they <br /> 
+                            enjoy and love. Ink Masters is the simply the best!!!</p>
+                        </div>
+                        <div className="user-info-review">
+
+                        </div>
+                    </div>
+
+                    <div className="reviews-card" id="reviews-card-3">
+                        <div className="reviews-text">
+                            <h1 id="reviews-comma">"</h1>
+                            <p id="reviews-p-text">I have never seen a platform that's completely free, where <br />
+                            creatives are given this much power to not only show <br />
+                            their work, learn, get hired for doing what they <br /> 
+                            enjoy and love. Ink Masters is the simply the best!!!</p>
+                        </div>
+                        <div className="user-info-review">
+
+                        </div>
+                    </div>
+                    
                 </div>
 
             </div>

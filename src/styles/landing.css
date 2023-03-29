@@ -15,12 +15,11 @@ body {
     color: var(--textColor);
     padding-top: 1.4rem;
     font-size: xx-large;
+    font-weight: bold;
 }
 
 #holder-1-p {
     color: var(--secondaryTextColor);
-    padding-top: 0.7rem;
-    font-size: larger;
 }
 
 .get-started {
@@ -32,13 +31,13 @@ body {
     cursor: pointer;
     border-radius: 12px;
     color: var(--textColor);
+    font-weight: bold;
 }
 
 .holder {
     background-color: var(--mainColor);
     width: 700px;
     border-radius: 10px;
-    height: 100px;
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
@@ -48,8 +47,7 @@ body {
     background-color: var(--mainColor);
     width: 750px;
     border-radius: 10px;
-    height: 70px;
-    margin-top: 25px;
+    margin-top: 22px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -97,6 +95,7 @@ body {
     cursor: pointer;
     border-radius: 12px;
     color: var(--textColor);
+    font-weight: bold;
 }
 
 #left-clients-holder-p {
@@ -143,6 +142,7 @@ body {
     cursor: pointer;
     border-radius: 12px;
     color: var(--textColor);
+    font-weight: bold;
 }
 
 #right-artists-holder-p {
@@ -209,8 +209,6 @@ body {
     margin-left: 15px;
 }
 
-
-
 .access-shop-today {
     background-color: var(--secondaryColor);
     width: 420px;
@@ -220,4 +218,62 @@ body {
     margin-left: 15px;
 }
 
+#client-reviews-text {
+    color: var(--textColor);
+    margin-top: 175px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.holder-5-reviews {
+    width: 1500px;
+    background-color: var(--mainColor);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    color: var(--secondaryTextColor);
+    margin-top: 70px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.reviews-card {
+    width: 500px;
+    border: 2px solid var(--mainColor);
+    border-radius: 10px;
+    background-color: var(--secondaryColor);
+}
+
+.reviews-text {
+    width: 500px;
+    border-radius: 10px;
+}
+
+#reviews-comma {
+    margin-left: 30px;
+}
+
+#reviews-p-text {
+    margin-left: 30px;
+}
+
+.user-info-review {
+    width: 490px;
+    height: 75px;
+    background-color: #2A272A;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+#reviews-card-2 {
+    margin-left: 15px;
+}
+
+#reviews-card-3 {
+    margin-left: 15px;
+}
 
