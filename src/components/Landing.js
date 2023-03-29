@@ -108,6 +108,23 @@ function Landing() {
                     
                 </div>
 
+                <div className="holder-6-vision">
+                    <div className="left-vision">
+                        <h3 id="left-vision-header">Our Vision</h3>
+                        <div className="left-vision-text">
+                            <p id="left-vision-text-p">The main reason behind Ink Masters was to connect <br />
+                            ink lovers to legitimate tattoo artists. We ensure that <br />
+                            artists on our platform are licensed professionals who <br />
+                            use high quality ink and rotary machines.</p>
+                        </div>
+                        <button>Get Started</button>
+                    </div>
+                    <div className="right-vision">
+
+                    </div>
+
+                </div>
+
             </div>
         </div>
     )
