@@ -5,13 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './components/Navbar';
 import Landing from './components/Landing';
+import Footer from './components/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <Navbar /> */}
-    <Landing />
+    {/* <Landing /> */}
+    <Footer />
   </React.StrictMode>
 );
 

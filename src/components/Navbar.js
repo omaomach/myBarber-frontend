@@ -16,7 +16,7 @@ function Navbar() {
             <nav ref={navRef}>
                 <a href="/#">Find an Artist</a>
                 <a href="/#">Explore Tattoos</a>
-                <a href="/#">Learn About Tattoos</a>
+                <a href="/#">Learn More About Tattoos</a>
 
                 <button className="nav-btn nav-close-btn" onClick={showNavbar}>
                     <FaTimes />
