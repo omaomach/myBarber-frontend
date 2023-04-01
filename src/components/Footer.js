@@ -4,19 +4,31 @@ import logo from '../assets/logo.png'
 
 function Footer() {
     return (
-        <div className="footer">
-            <div className="left-side">
-                <img className="second-logo" src={logo} alt="second logo" />
-                <p>Ink Masters consists of a group of tattoo artists. <br />
-                whose aim is to provide quality services to clients <br />
-                This site holds every information you may wish learn <br />
-                concerning body art</p>
+        <div id="footer">
+            <div className="footer-outer">
+                <div id="footer-logo">
+                    <div id="img-wrapper">
+                        <img id="footer-log-img" src={logo} alt="company logo"/>
+                    </div>
+                </div>
+
+                <div id="footer-socials">
+
+                </div>
             </div>
-            <div className="middle">
+
+            <div id="footer-quick-links" className="footer-inner">
 
             </div>
-            <div className="right-side">
 
+            <div id="footer-contact-info" className="footer-inner">
+            </div>
+
+            <div id="footer-newsletter" className="footer-outer">
+                <form id="footer-newsletter-form">
+                    <input type="email" />
+                    <input type="submit"/>
+                </form>
             </div>
         </div>
     )

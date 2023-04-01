@@ -1,29 +1,31 @@
-body {
-    text-align: center;
-    justify-content: center;
-}
-
-.footer {
-    width: 1880px;
-    height: 398px;
+#footer {
     background-color: var(--secondaryColor);
-    border-radius: 10px;
+    height: 25rem;
+    display: flex;
+}
+
+#footer #img-wrapper {
+    width: 20rem;
+    height: 20rem;
+    position: relative;
+}
+
+#footer #footer-logo img{
+    width: 20rem;
+    height: 20rem;
+}
+
+#footer #img-wrapper::after{
+    content: "We select a group of top-notch licensed tattoo artists for you. Wanna get inked? Talk to us!";
+    height: max-content;
+    width: 18rem;
+    text-align: center;
+    display: inline-block;
     position: absolute;
-    bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-left: 20px;
-}
+    top: 80%;
+    left: 0;
+    font-size: 0.9rem;
+    z-index: 100;
+    color: white;
 
-.left-side {
-    width: 300px;
-    height: 350px;
-    background-color: var(--mainColor);
-    margin-left: 24px;
-    margin-top: 24px;
-    border-radius: 10px;
-}
-
-.second-logo {
-    width: 183px;
 }
