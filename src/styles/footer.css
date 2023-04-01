@@ -2,6 +2,9 @@
     background-color: var(--secondaryColor);
     height: 25rem;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--textColor);
 }
 
 #footer #img-wrapper {
@@ -23,9 +26,8 @@
     display: inline-block;
     position: absolute;
     top: 80%;
-    left: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
     font-size: 0.9rem;
     z-index: 100;
-    color: white;
-
 }
