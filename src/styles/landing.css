@@ -23,50 +23,50 @@ body {
 }
 
 .get-started {
-    margin-top: 50px;
+    margin-top: 3.125rem;
     background-color: var(--secondaryColor);
-    width: 200px;
-    height: 35px;
-    border: 1px solid var(--secondaryColor);
+    width: 12.5rem;
+    height: 2.25rem;
+    border: 0.05rem solid var(--secondaryColor);
     cursor: pointer;
-    border-radius: 12px;
+    border-radius: 0.75rem;
     color: var(--textColor);
     font-weight: bold;
 }
 
 .holder {
     background-color: var(--mainColor);
-    width: 700px;
-    border-radius: 10px;
-    margin-top: 100px;
+    width: 43.75rem;
+    border-radius: 0.625rem;
+    margin-top: 6.25rem;
     margin-left: auto;
     margin-right: auto;
 }
 
 .holder-1 {
     background-color: var(--mainColor);
-    width: 750px;
-    border-radius: 10px;
-    margin-top: 22px;
+    width: 46.875rem;
+    border-radius: 0.625;
+    margin-top: 1.375rem;
     margin-left: auto;
     margin-right: auto;
 }
 
 .holder-2 {
     background-color: var(--secondaryColor);
-    width: 1000px;
-    border-radius: 6px;
-    height: 500px;
-    margin-top: 100px;
+    width: 62.5rem;
+    border-radius: 0.375rem;
+    height: 31.25rem;
+    margin-top: 6.25rem;
     margin-left: auto;
     margin-right: auto;
 }
 
 .holder-3 {
     background-color: var(--mainColor);
-    width: 1500px;
-    height: 700px;
-    margin-top: 150px;
+    width: 93.75rem;
+    height: 43.75rem;
+    margin-top: 9.375rem;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -77,23 +77,23 @@ body {
 
 .left-clients-holder {
     background-color: var(--secondaryColor);
-    width: 630px;
-    height: 700px;
-    border-radius: 10px;
+    width: 39.375rem;
+    height: 43.75rem;
+    border-radius: 0.625rem;
     color: var(--textColor);
     font-size: medium;
     font-weight: bold;
-    margin-right: 15px;
+    margin-right: 0.9375rem;
 }
 
 .left-clients-holder button {
-    margin-top: 30px;
+    margin-top: 1.875rem;
     background-color: var(--mainColor);
-    width: 200px;
-    height: 35px;
-    border: 1px solid var(--mainColor);
+    width: 12.5rem;
+    height: 2.1875rem;
+    border: 0.0625rem solid var(--mainColor);
     cursor: pointer;
-    border-radius: 12px;
+    border-radius: 0.75rem;
     color: var(--textColor);
     font-weight: bold;
 }
@@ -102,45 +102,45 @@ body {
     color: var(--mainColor);
     font-size: medium;
     font-weight: bold;
-    padding-top: 6px;
+    padding-top: 0.375rem;
     
 }
 
 #left-clients-holder-p1 {
     font-weight: lighter;
     color: var(--mainColor);
-    padding-top: 6px;
+    padding-top: 0.375rem;
 }
 
 .clients-text {
     background-color: var(--mainColor);
-    width: 615px;
-    height: 525px;
-    border: 2px solid var(--secondaryColor);
-    border-radius: 10px;
+    width: 38.375rem;
+    height: 32.8125rem;
+    border: 0.125rem solid var(--secondaryColor);
+    border-radius: 0.625rem;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 7px;
+    margin-top: 0.4375rem;
 }
 
 .right-artists-holder {
     background-color: var(--secondaryColor);
-    width: 630px;
-    height: 700px;
-    border-radius: 10px;
+    width: 39.375rem;
+    height: 43.75rem;
+    border-radius: 0.625rem;
     color: var(--textColor);
     font-weight: bold;
-    margin-left: 15px;
+    margin-left: 0.9375rem;
 }
 
 .right-artists-holder button {
-    margin-top: 30px;
+    margin-top: 1.875rem;
     background-color: var(--mainColor);
-    width: 200px;
-    height: 35px;
-    border: 1px solid var(--mainColor);
+    width: 12.5rem;
+    height: 2.1875rem;
+    border: 0.0625rem solid var(--mainColor);
     cursor: pointer;
-    border-radius: 12px;
+    border-radius: 0.75rem;
     color: var(--textColor);
     font-weight: bold;
 }
@@ -149,19 +149,19 @@ body {
     color: var(--mainColor);
     font-size: medium;
     font-weight: bold;
-    padding-top: 6px;
+    padding-top: 0.375rem;
 }
 
 #right-artists-holder-p1 {
     font-weight: lighter;
     color: var(--mainColor);
-    padding-top: 6px;
+    padding-top: 0.375rem;
 }
 
 .holder-4 {
     background-color: var(--mainColor);
-    width: 1290px;
-    margin-top: 30px;
+    width: 80.625rem;
+    margin-top: 1.875rem;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -172,82 +172,82 @@ body {
     color: var(--mainColor);
     font-size: medium;
     font-weight: bold;
-    padding-top: 10px;
+    padding-top: 0.625rem;
 }
 
 #holder-4-ink {
     color: var(--mainColor);
     font-size: medium;
-    padding-top: 6px;
+    padding-top: 0.375rem;
 }
 
 .get-inked-today {
     background-color: var(--secondaryColor);
-    width: 420px;
-    height: 460px;
-    border-radius: 10px;
-    border: 1px solid var(--mainColor);
+    width: 26.25rem;
+    height: 28.75rem;
+    border-radius: 0.625rem;
+    border: 0.0625rem solid var(--mainColor);
     margin-left: 0;
 }
 
 .inked-today-text {
-    width: 400px;
-    height: 380px;
+    width: 25rem;
+    height: 23.75rem;
     background-color: var(--mainColor);
     margin-left: auto;
     margin-right: auto;
-    margin-top: 8.5px;
-    border-radius: 10px;
+    margin-top: 0.53125rem;
+    border-radius: 0.625rem;
 }
 
 .get-piercing-today {
     background-color: var(--secondaryColor);
-    width: 420px;
-    height: 460px;
-    border-radius: 10px;
-    border: 1px solid var(--mainColor);
-    margin-left: 15px;
+    width: 26.25rem;
+    height: 28.75rem;
+    border-radius: 0.625rem;
+    border: 0.0625rem solid var(--mainColor);
+    margin-left: 0.9375rem;
 }
 
 .access-shop-today {
     background-color: var(--secondaryColor);
-    width: 420px;
-    height: 460px;
-    border-radius: 10px;
-    border: 1px solid var(--mainColor);
-    margin-left: 15px;
+    width: 26.25rem;
+    height: 28.75rem;
+    border-radius: 0.625rem;
+    border: 0.0625rem solid var(--mainColor);
+    margin-left: 0.9375rem;
 }
 
 #client-reviews-text {
     color: var(--textColor);
-    margin-top: 175px;
+    margin-top: 10.9375rem;
     font-size: xx-large;
     font-weight: bold;
 }
 
 .holder-5-reviews {
-    width: 1500px;
+    width: 93.75rem;
     background-color: var(--mainColor);
     margin-left: auto;
     margin-right: auto;
     text-align: left;
     color: var(--secondaryTextColor);
-    margin-top: 70px;
-    border-radius: 10px;
+    margin-top: 4.375rem;
+    border-radius: 0.625rem;
     display: flex;
     flex-direction: row;
 }
 
 .reviews-card {
-    width: 500px;
-    border: 2px solid var(--mainColor);
-    border-radius: 10px;
+    width: 31.25rem;
+    border: 0.125rem solid var(--mainColor);
+    border-radius: 0.625rem;
     background-color: var(--secondaryColor);
 }
 
 .reviews-text {
-    width: 500px;
-    border-radius: 10px;
+    width: 31.25rem;
+    border-radius: 0.625rem;
 }
 
 #reviews-comma {
@@ -255,36 +255,36 @@ body {
 }
 
 #reviews-p-text {
-    margin-left: 30px;
+    margin-left: 1.875rem;
     line-height: 1.3;
 }
 
 .user-info-review {
-    width: 490px;
-    height: 75px;
+    width: 30.625rem;
+    height: 4.6875rem;
     background-color: #2A272A;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 10px;
-    margin-top: 6px;
-    margin-bottom: 6px;
+    border-radius: 0.625rem;
+    margin-top: 0.375rem;
+    margin-bottom: 0.375rem;
 }
 
 #reviews-card-2 {
-    margin-left: 15px;
+    margin-left: 0.9375rem;
 }
 
 #reviews-card-3 {
-    margin-left: 15px;
+    margin-left: 0.9375rem;
 }
 
 .holder-6-vision {
-    width: 1400px;
+    width: 87.5rem;
     background-color: var(--mainColor);
-    margin-top: 175px;
+    margin-top: 10.9375rem;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     text-align: left;
     color: var(--textColor);
     display: flex;
@@ -299,39 +299,39 @@ body {
 #left-vision-header {
     font-size: xx-large;
     font-weight: bold;
-    margin-left: 30px;
+    margin-left: 1.875rem;
 }
 
 .left-vision-text {
     background-color: var(--mainColor);
-    width: 500px;
+    width: 31.25rem;
 }
 
 #left-vision-text-p {
     line-height: 1.3;
-    margin-top: 15px;
-    margin-left: 30px;
+    margin-top: 0.9375rem;
+    margin-left: 1.875rem;
     font-weight: bold;
     color: var(--secondaryTextColor);
 }
 
 .left-vision button {
-    margin-top: 25px;
+    margin-top: 1.5625rem;
     background-color: var(--secondaryColor);
-    width: 200px;
-    height: 35px;
-    border: 1px solid var(--secondaryColor);
+    width: 12.5rem;
+    height: 2.1875rem;
+    border: 0.0625rem solid var(--secondaryColor);
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     color: var(--textColor);
     font-weight: bold;
-    margin-left: 30px;
+    margin-left: 1.875rem;
 }
 
 .right-vision {
     background-color: var(--secondaryColor);
-    width: 900px;
-    height: 450px;
-    border-radius: 10px;
+    width: 56.25rem;
+    height: 28.125rem;
+    border-radius: 0.625rem;
 }
 
