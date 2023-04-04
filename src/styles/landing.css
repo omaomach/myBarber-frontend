@@ -306,6 +306,10 @@ body {
 .left-vision {
     width: min(38rem, 38vw);
     min-width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 #left-vision-header {
