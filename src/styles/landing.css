@@ -183,7 +183,8 @@ body {
 .get-inked-today {
     background-color: var(--secondaryColor);
     width: 26.25rem;
-    height: 28.75rem;
+    padding: 0.5rem;
+    height: max-content;
     border-radius: 0.625rem;
     border: 0.0625rem solid var(--mainColor);
     margin-left: 0;
@@ -202,7 +203,8 @@ body {
 .get-piercing-today {
     background-color: var(--secondaryColor);
     width: 26.25rem;
-    height: 28.75rem;
+    padding: 0.5rem;
+    height: max-content;
     border-radius: 0.625rem;
     border: 0.0625rem solid var(--mainColor);
     margin-left: 0.9375rem;
@@ -211,7 +213,8 @@ body {
 .access-shop-today {
     background-color: var(--secondaryColor);
     width: 26.25rem;
-    height: 28.75rem;
+    padding: 0.5rem;
+    height: max-content;
     border-radius: 0.625rem;
     border: 0.0625rem solid var(--mainColor);
     margin-left: 0.9375rem;
