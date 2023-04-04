@@ -37,7 +37,7 @@ header .nav-btn {
     border: none;
     outline: none;
     color: var(--textColor);
-    display: none;
+    visibility: visible;
     opacity: 0;
     font-size: 1.8re,;
 }
@@ -54,7 +54,7 @@ header .nav-btn {
     margin-top: 2.1%;
 }
 
-/* @media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
     header .nav-btn {
         visibility: visible;
         opacity: 1;
@@ -90,5 +90,5 @@ header .nav-btn {
         font-size: 1.5rem;
     }
 
-} */
+}
 
