@@ -36,7 +36,7 @@ function FindArtist() {
                     </div>
                 </div>
                 <div id="featured-artists">
-                    <button id="artist-filter-button"><p>Featured Artists</p></button>
+                    <button id="artist-filter-button"><h2>Featured Artists</h2></button>
                     <button id="featured-artists-left-button">Left</button>
                     <button id="featured-artists-right-button">Right</button>
                 </div>

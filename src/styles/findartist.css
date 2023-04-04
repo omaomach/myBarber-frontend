@@ -97,8 +97,8 @@
 }
 #artist-filter-button {
     background-color: var(--mainColor);
-    width: 160px;
-    height: 35px;
+    width: 220px;
+    height: 45px;
     border: 2px solid var(--secondaryColor);
     cursor: pointer;
     border-radius: 12px;
@@ -106,11 +106,11 @@
     font-weight: bold;
     text-align: left;
 }
-#artist-filter-button p {
+#artist-filter-button h2 {
     margin-left: 10px;
 }
 #featured-artists-left-button {
-    margin-left: 1542.5px;
+    margin-left: 1482.5px;
     background-color: var(--mainColor);
     width: 50px;
     height: 35px;
