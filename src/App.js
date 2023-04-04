@@ -1,4 +1,5 @@
 import '../src/styles/main.css';
+import ArtistPage from './components/ArtistPage';
 import FindArtist from './components/FindArtist';
 import Footer from './components/Footer';
 import Landing from './components/Landing'
@@ -13,7 +14,8 @@ function App() {
       {/* <Navbar /> */}
       {/* <Landing /> */}
       {/* <Footer /> */}
-      <FindArtist />
+      {/* <FindArtist /> */}
+      <ArtistPage />
     </div>
   );
 }
