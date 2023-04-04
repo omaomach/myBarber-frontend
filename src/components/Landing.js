@@ -29,7 +29,7 @@ function Landing() {
                         </div>
                         <p id="left-clients-holder-p">Clients on Ink Masters</p>
                         <p id="left-clients-holder-p1">Checkout our customers' reviews on our services</p>
-                        <button>Checkout eviews</button>
+                        <button>Checkout Reviews</button>
                     </div>
                     <div className="right-artists-holder">
                         <div className="clients-text">

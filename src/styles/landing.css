@@ -64,26 +64,26 @@ body {
 
 .holder-3 {
     background-color: var(--mainColor);
-    width: 93.75rem;
-    height: 43.75rem;
     margin-top: 9.375rem;
     margin-left: auto;
     margin-right: auto;
+    padding: 3rem;
     display: flex;
+    gap: 2rem;
     flex-direction: row;
+    flex-wrap: wrap;
     text-align: center;
     justify-content: center;
 }
 
 .left-clients-holder {
     background-color: var(--secondaryColor);
-    width: 39.375rem;
+    width: min(39.375rem, 80vw);
     height: 43.75rem;
     border-radius: 0.625rem;
     color: var(--textColor);
     font-size: medium;
     font-weight: bold;
-    margin-right: 0.9375rem;
 }
 
 .left-clients-holder button {
@@ -125,12 +125,11 @@ body {
 
 .right-artists-holder {
     background-color: var(--secondaryColor);
-    width: 39.375rem;
+    width: min(39.375rem, 80vw);
     height: 43.75rem;
     border-radius: 0.625rem;
     color: var(--textColor);
     font-weight: bold;
-    margin-left: 0.9375rem;
 }
 
 .right-artists-holder button {
