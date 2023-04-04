@@ -14,16 +14,18 @@ function Navbar() {
         <header>
             <img className="logo" src={logo} alt="logo"/>
             <nav ref={navRef}>
-                <a href="/#">Find an Artist</a>
-                <a href="/#">Explore Tattoos</a>
-                <a href="/#">Learn More About Tattoos</a>
+                <div id="links-container">
+                    <a href="/find">Find an Artist</a>
+                    <a href="/#">Explore Tattoos</a>
+                    <a href="/#">Learn More About Tattoos</a>
+                </div>
 
                 <button className="nav-btn nav-close-btn" onClick={showNavbar}>
                     <FaTimes />
                 </button>
 
             </nav>
-            <button className="nav-btn" onClick={showNavbar}>
+            <button className="nav-btn nav-bars-btn" onClick={showNavbar}>
                 <FaBars />
             </button>
 

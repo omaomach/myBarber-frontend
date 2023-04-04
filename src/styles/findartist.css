@@ -1,0 +1,11 @@
+#find-an-artist-page-parent {
+    display: flex;
+    flex-direction: column;
+}
+
+#secondary-parent {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    
+}
