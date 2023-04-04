@@ -12,14 +12,13 @@
 }
 
 header {
+    margin: auto;
+    width: 80vw;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 80px;
-    padding: 0;
-    background-color: var(--mainColor);
-    color: var(--textColor)
-
 }
 
 nav a{
@@ -33,24 +32,29 @@ nav a:hover {
 }
 
 header .nav-btn {
-    padding: 5px;
     cursor: pointer;
     background: transparent;
     border: none;
     outline: none;
     color: var(--textColor);
-    visibility: hidden;
+    display: none;
     opacity: 0;
     font-size: 1.8re,;
 }
 
 .logo {
-    width: 183px;
-    margin-top: 2.1%;
-    padding: 0;
+    margin-bottom: -1rem;
+    width: 10rem;
+    height: 10rem;
+    overflow: hidden;
 }
 
-@media only screen and (max-width: 1024px) {
+.logo img {
+    width: 10rem;
+    margin-top: 2.1%;
+}
+
+/* @media only screen and (max-width: 1024px) {
     header .nav-btn {
         visibility: visible;
         opacity: 1;
@@ -86,5 +90,5 @@ header .nav-btn {
         font-size: 1.5rem;
     }
 
-}
+} */
 

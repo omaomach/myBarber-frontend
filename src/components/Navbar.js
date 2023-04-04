@@ -12,7 +12,9 @@ function Navbar() {
 
     return (
         <header>
-            <img className="logo" src={logo} alt="logo"/>
+            <div className="logo">
+                <img src={logo} alt="logo"/>
+            </div>
             <nav ref={navRef}>
                 <a href="/#">Find an Artist</a>
                 <a href="/#">Explore Tattoos</a>
