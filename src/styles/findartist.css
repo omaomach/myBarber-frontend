@@ -2,10 +2,148 @@
     display: flex;
     flex-direction: column;
 }
-
 #secondary-parent {
-    width: 100px;
-    height: 100px;
-    background-color: aqua;
+    background-color: var(--mainColor);
+    margin-top: 2rem;
     
 }
+#map-holder {
+    width: 1825px;
+    height: 800px;
+    background-color: var(--secondaryColor);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+#filter-buttons {
+    margin-left: 46.5px;
+    margin-top: 25px;
+}
+.location-buttons {
+    margin-left: 20px;
+    background-color: var(--mainColor);
+    width: 140px;
+    height: 35px;
+    border: 2px solid var(--secondaryColor);
+    cursor: pointer;
+    border-radius: 12px;
+    color: var(--textColor);
+    font-weight: bold;
+    text-align: left;
+}
+#first-location-button {
+    background-color: var(--mainColor);
+    width: 110px;
+    height: 35px;
+    border: 2px solid var(--secondaryColor);
+    cursor: pointer;
+    border-radius: 12px;
+    color: var(--textColor);
+    font-weight: bold;
+    text-align: left;
+}
+#filter-buttons p {
+    margin-left: 10px;
+}
+#featured-studios {
+    margin-top: 100px;
+    margin-left: 46.5px;
+    display: flex;
+}
+#featured-studios h2{
+    color: var(--textColor);
+}
+#featured-studios-left-button {
+    margin-left: 1505px;
+    background-color: var(--mainColor);
+    width: 50px;
+    height: 35px;
+    border: 2px solid var(--secondaryColor);
+    cursor: pointer;
+    border-radius: 12px;
+    color: var(--textColor);
+    font-weight: bold;
+    text-align: center;
+}
+#featured-studios-right-button {
+    background-color: var(--mainColor);
+    width: 50px;
+    height: 35px;
+    border: 2px solid var(--secondaryColor);
+    cursor: pointer;
+    border-radius: 12px;
+    color: var(--textColor);
+    font-weight: bold;
+    text-align: center;
+    margin-left: 20px;
+}
+#featured-studios-cards {
+    margin-left: 11.5px;
+    margin-top: 25px;
+    display: flex;
+    width: 1860px;
+}
+.studio-card {
+    width: 430px;
+    height: 470px;
+    background-color: var(--secondaryColor);
+    margin-left: 35px;
+    border-radius: 10px;
+}
+#featured-artists {
+    margin-top: 75px;
+    margin-left: 46.5px;
+    display: flex;
+}
+#artist-filter-button {
+    background-color: var(--mainColor);
+    width: 160px;
+    height: 35px;
+    border: 2px solid var(--secondaryColor);
+    cursor: pointer;
+    border-radius: 12px;
+    color: var(--textColor);
+    font-weight: bold;
+    text-align: left;
+}
+#artist-filter-button p {
+    margin-left: 10px;
+}
+#featured-artists-left-button {
+    margin-left: 1542.5px;
+    background-color: var(--mainColor);
+    width: 50px;
+    height: 35px;
+    border: 2px solid var(--secondaryColor);
+    cursor: pointer;
+    border-radius: 12px;
+    color: var(--textColor);
+    font-weight: bold;
+    text-align: center;
+}
+#featured-artists-right-button {
+    background-color: var(--mainColor);
+    width: 50px;
+    height: 35px;
+    border: 2px solid var(--secondaryColor);
+    cursor: pointer;
+    border-radius: 12px;
+    color: var(--textColor);
+    font-weight: bold;
+    text-align: center;
+    margin-left: 20px;
+}
+#featured-artists-cards {
+    margin-left: 11.5px;
+    margin-top: 30px;
+    display: flex;
+    width: 1860px;
+}
+.artist-card {
+    width: 430px;
+    height: 470px;
+    background-color: var(--secondaryColor);
+    margin-left: 35px;
+    border-radius: 10px;
+}
+

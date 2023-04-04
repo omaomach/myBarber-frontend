@@ -13,7 +13,7 @@ function App() {
       {/* <Navbar /> */}
       {/* <Landing /> */}
       {/* <Footer /> */}
-      {/* <FindArtist /> */}
+      <FindArtist />
     </div>
   );
 }
