@@ -4,8 +4,7 @@
 }
 #secondary-parent {
     background-color: var(--mainColor);
-    margin-top: 2rem;
-    
+    margin-top: 2rem;    
 }
 #map-holder {
     width: 1825px;

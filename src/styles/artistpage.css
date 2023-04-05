@@ -1,0 +1,29 @@
+#parent-div {
+    display: flex;
+    flex-direction: column;
+}
+#secondary-div {
+    background-color: var(--mainColor);
+    margin-top: 2rem; 
+    display: flex;
+    flex-direction: row;
+    width: 1835px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+#artist-details-div {
+    width: 500px;
+    height: 800px;
+    background-color: var(--secondaryColor);
+    border-radius: 10px;
+}
+#artist-work-images {
+    width: 1353px;
+    height: 800px;
+    margin-left: 47px;
+    background-color: var(--secondaryColor);
+    border-radius: 10px;
+}
+
+
