@@ -14,16 +14,73 @@
 }
 #artist-details-div {
     width: 500px;
-    height: 800px;
+    height: 725px;
     background-color: var(--secondaryColor);
     border-radius: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
 }
 #artist-work-images {
     width: 1353px;
     height: 800px;
-    margin-left: 47px;
+    margin-left: 30px;
     background-color: var(--secondaryColor);
     border-radius: 10px;
 }
+#image-name-div {
+    width: 435px;
+    height: 200px;
+    background-color: var(--secondaryColor);
+    margin-top: 25px;
+    margin-left: 25px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+#image {
+    width: 200px;
+    height: 200px;
+    background-color: var(--mainColor);
+    border-radius: 10px;
+}
+#name {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#name p {
+    line-height: 1.5;
+    font-weight: bold;
+    color: var(--secondaryTextColor);
+}
+#artist-option-buttons {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.option-buttons {
+    margin-left: 20px;
+    background-color: var(--mainColor);
+    width: 134px;
+    height: 35px;
+    border: 2px solid var(--secondaryColor);
+    cursor: pointer;
+    border-radius: 12px;
+    color: var(--secondaryColor);
+    font-weight: bold;
+    text-align: center;
+}
+#option-button-1 {
+    background-color: var(--mainColor);
+    width: 134px;
+    height: 35px;
+    border: 2px solid var(--secondaryColor);
+    cursor: pointer;
+    border-radius: 12px;
+    color: var(--secondaryColor);
+    font-weight: bold;
+    text-align: center;
+}
+
 
 

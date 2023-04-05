@@ -26,7 +26,7 @@
     border: 2px solid var(--secondaryColor);
     cursor: pointer;
     border-radius: 12px;
-    color: var(--textColor);
+    color: var(--secondaryColor);
     font-weight: bold;
     text-align: left;
 }
@@ -37,7 +37,7 @@
     border: 2px solid var(--secondaryColor);
     cursor: pointer;
     border-radius: 12px;
-    color: var(--textColor);
+    color: var(--secondaryColor);
     font-weight: bold;
     text-align: left;
 }
@@ -54,24 +54,24 @@
 }
 #featured-studios-left-button {
     margin-left: 1505px;
-    background-color: var(--mainColor);
+    background-color: var(--secondaryColor);
     width: 50px;
     height: 35px;
-    border: 2px solid var(--secondaryColor);
+    border: 1px solid var(--secondaryColor);
     cursor: pointer;
     border-radius: 12px;
-    color: var(--textColor);
+    color: var(--mainColor);
     font-weight: bold;
     text-align: center;
 }
 #featured-studios-right-button {
-    background-color: var(--mainColor);
+    background-color: var(--secondaryColor);
     width: 50px;
     height: 35px;
-    border: 2px solid var(--secondaryColor);
+    border: 1px solid var(--secondaryColor);
     cursor: pointer;
     border-radius: 12px;
-    color: var(--textColor);
+    color: var(--mainColor);
     font-weight: bold;
     text-align: center;
     margin-left: 20px;
@@ -95,13 +95,13 @@
     display: flex;
 }
 #artist-filter-button {
-    background-color: var(--mainColor);
+    background-color: var(--secondaryColor);
     width: 220px;
-    height: 45px;
+    height: 40px;
     border: 2px solid var(--secondaryColor);
     cursor: pointer;
     border-radius: 12px;
-    color: var(--textColor);
+    color: var(--mainColor);
     font-weight: bold;
     text-align: left;
 }
@@ -110,24 +110,24 @@
 }
 #featured-artists-left-button {
     margin-left: 1482.5px;
-    background-color: var(--mainColor);
+    background-color: var(--secondaryColor);
     width: 50px;
     height: 35px;
-    border: 2px solid var(--secondaryColor);
+    border: 1px solid var(--secondaryColor);
     cursor: pointer;
     border-radius: 12px;
-    color: var(--textColor);
+    color: var(--mainColor);
     font-weight: bold;
     text-align: center;
 }
 #featured-artists-right-button {
-    background-color: var(--mainColor);
+    background-color: var(--secondaryColor);
     width: 50px;
     height: 35px;
     border: 2px solid var(--secondaryColor);
     cursor: pointer;
     border-radius: 12px;
-    color: var(--textColor);
+    color: var(--mainColor);
     font-weight: bold;
     text-align: center;
     margin-left: 20px;
