@@ -1,6 +1,7 @@
 import React from "react";
 import '../styles/artistpage.css'
 import Navbar from "./Navbar";
+import gokuu from "../assets/gokuu.jpg"
 
 function ArtistPage() {
     return (
@@ -23,7 +24,11 @@ function ArtistPage() {
                     </div>
                 </div>
                 <div id="artist-work-images">
-
+                    <img id="artist-work" src={gokuu} alt="hero" />
+                    <img id="artist-work" src={gokuu} alt="hero" />
+                    <img id="artist-work" src={gokuu} alt="hero" />
+                    <img id="artist-work" src={gokuu} alt="hero" />
+                    <img id="artist-work" src={gokuu} alt="hero" />
                 </div>
             </div>
 
