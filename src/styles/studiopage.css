@@ -1,0 +1,35 @@
+#studio-page-parent-div {
+    display: flex;
+    flex-direction: column;
+}
+#second-div {
+    background-color: var(--mainColor);
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+#shop-image {
+    width: 1826px;
+    height: 300px;
+    background-color: var(--secondaryColor);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#locate-shop {
+    background-color: var(--mainColor);
+    width: 110px;
+    height: 35px;
+    border: 2px solid var(--secondaryColor);
+    cursor: pointer;
+    border-radius: 12px;
+    color: var(--secondaryColor);
+    font-weight: bold;
+    text-align: left;
+    margin-left: 46.5px;
+    margin-top: 25px;
+}
+#locate-shop p {
+    margin-left: 15px;
+    font-size: medium;
+}

@@ -14,7 +14,8 @@ function Landing() {
                 
                 <div className="holder-1">
                 <p id="holder-1-p">As an artist, share your art and skill set and get connected with a client <br/>
-                    All our Ink Masters are licensed and professional artists with years of experience</p>
+                    All our Ink Masters are licensed and professional artists with years of experience. <br/>
+                    Lets make your experience, a great one.</p>
                 </div>
                 <button className="get-started">Get Started</button>
 
@@ -29,7 +30,7 @@ function Landing() {
                         </div>
                         <p id="left-clients-holder-p">Clients on Ink Masters</p>
                         <p id="left-clients-holder-p1">Checkout our customers' reviews on our services</p>
-                        <button>Checkout eviews</button>
+                        <button>Checkout reviews</button>
                     </div>
                     <div className="right-artists-holder">
                         <div className="clients-text">

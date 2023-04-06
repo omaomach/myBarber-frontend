@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Landing from './components/Landing'
 import Nav from './components/Nav'
 import Navbar from './components/Navbar'
+import StudioPage from './components/StudioPage'
 
 
 function App() {
@@ -14,8 +15,9 @@ function App() {
       {/* <Navbar /> */}
       {/* <Landing /> */}
       {/* <Footer /> */}
-      {/* <FindArtist /> */}
-      <ArtistPage />
+      <FindArtist />
+      {/* <ArtistPage /> */}
+      {/* <StudioPage /> */}
     </div>
   );
 }

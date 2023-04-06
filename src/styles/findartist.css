@@ -96,17 +96,17 @@
 }
 #artist-filter-button {
     background-color: var(--secondaryColor);
-    width: 220px;
+    width: 230px;
     height: 40px;
     border: 2px solid var(--secondaryColor);
     cursor: pointer;
     border-radius: 12px;
-    color: var(--mainColor);
+    color: var(--secondaryTextColor);
     font-weight: bold;
     text-align: left;
 }
 #artist-filter-button h2 {
-    margin-left: 10px;
+    margin-left: 20px;
 }
 #featured-artists-left-button {
     margin-left: 1482.5px;
