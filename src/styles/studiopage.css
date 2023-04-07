@@ -18,7 +18,7 @@
 }
 #locate-shop {
     background-color: var(--mainColor);
-    width: 110px;
+    width: 160px;
     height: 35px;
     border: 2px solid var(--secondaryColor);
     cursor: pointer;
@@ -32,4 +32,33 @@
 #locate-shop p {
     margin-left: 15px;
     font-size: medium;
+}
+#studio-members {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+}
+#studio-members-image-div {
+    width: 910px;
+    height: 460px;
+    background-color: var(--secondaryColor);
+    text-align: center;
+    border-radius: 10px;
+}
+#studio-members-image {
+    width: 900px;
+    height: 450px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+#studio-text {
+    width: 500px;
+    height: 150px;
+    background-color: var(--secondaryColor);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+    border-radius: 10px;
 }
