@@ -1,6 +1,7 @@
 import React from "react";
 import '../styles/studiopage.css'
 import Navbar from "./Navbar";
+import gokuu from '../assets/gokuu.jpg'
 
 function StudioPage() {
     return (
@@ -17,17 +18,49 @@ function StudioPage() {
                     <button id="featured-artists-right-button">Right</button>
                 </div>
                 <div id="featured-artists-cards">
-                    <div className="artist-card">
-
+                <div className="studio-card">
+                        <img className="studio-work-images" src={gokuu} alt="gokuu" />
+                        <div id="studio-info-and-book">
+                            <img id="studio-logo" src={gokuu} alt="" />
+                            <div id="studio-name">
+                            <p>Vincent Makhoha</p>
+                            <p>Status: Available</p>
+                        </div>
+                        <button id="book-studio-button">Book</button>
+                        </div>
                     </div>
-                    <div className="artist-card">
-                        
+                    <div className="studio-card">
+                        <img className="studio-work-images" src={gokuu} alt="gokuu" />
+                        <div id="studio-info-and-book">
+                            <img id="studio-logo" src={gokuu} alt="" />
+                            <div id="studio-name">
+                            <p>Vincent Makhoha</p>
+                            <p>Status: Available</p>
+                        </div>
+                        <button id="book-studio-button">Book</button>
+                        </div>
                     </div>
-                    <div className="artist-card">
-                        
+                    <div className="studio-card">
+                        <img className="studio-work-images" src={gokuu} alt="gokuu" />
+                        <div id="studio-info-and-book">
+                            <img id="studio-logo" src={gokuu} alt="" />
+                            <div id="studio-name">
+                            <p>Vincent Makhoha</p>
+                            <p>Status: Available</p>
+                        </div>
+                        <button id="book-studio-button">Book</button>
+                        </div>
                     </div>
-                    <div className="artist-card">
-                        
+                    <div className="studio-card">
+                        <img className="studio-work-images" src={gokuu} alt="gokuu" />
+                        <div id="studio-info-and-book">
+                            <img id="studio-logo" src={gokuu} alt="" />
+                            <div id="studio-name">
+                            <p>Vincent Makhoha</p>
+                            <p>Status: Available</p>
+                        </div>
+                        <button id="book-studio-button">Book</button>
+                        </div>
                     </div>
                 </div>
             </div>
