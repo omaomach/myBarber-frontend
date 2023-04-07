@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import '../styles/findartist.css'
+import gokuu from '../assets/gokuu.jpg'
 
 function FindArtist() {
     return(
@@ -23,16 +24,48 @@ function FindArtist() {
                 </div>
                 <div id="featured-studios-cards">
                     <div className="studio-card">
-
+                        <img className="studio-work-images" src={gokuu} alt="gokuu" />
+                        <div id="studio-info-and-book">
+                            <img id="studio-logo" src={gokuu} alt="" />
+                            <div id="studio-name">
+                            <p>Ink City</p>
+                            <p>Location: Nairobi, Moi Avenue</p>
+                        </div>
+                        <button id="book-studio-button">Book</button>
+                        </div>
                     </div>
                     <div className="studio-card">
-                        
+                        <img className="studio-work-images" src={gokuu} alt="gokuu" />
+                        <div id="studio-info-and-book">
+                            <img id="studio-logo" src={gokuu} alt="" />
+                            <div id="studio-name">
+                            <p>Dancan Tattoos</p>
+                            <p>Location: Nairobi, Biashara Street</p>
+                        </div>
+                        <button id="book-studio-button">Book</button>
+                        </div>
                     </div>
                     <div className="studio-card">
-                        
+                        <img className="studio-work-images" src={gokuu} alt="gokuu" />
+                        <div id="studio-info-and-book">
+                            <img id="studio-logo" src={gokuu} alt="" />
+                            <div id="studio-name">
+                            <p>Dreamland Studios</p>
+                            <p>Location: Karen</p>
+                        </div>
+                        <button id="book-studio-button">Book</button>
+                        </div>
                     </div>
                     <div className="studio-card">
-                        
+                        <img className="studio-work-images" src={gokuu} alt="gokuu" />
+                        <div id="studio-info-and-book">
+                            <img id="studio-logo" src={gokuu} alt="" />
+                            <div id="studio-name">
+                            <p>Omao Machoka Stusios</p>
+                            <p>Location: Kahawa Sukari, Baringo rd</p>
+                        </div>
+                        <button id="book-studio-button">Book</button>
+                        </div>
                     </div>
                 </div>
                 <div id="featured-artists">
@@ -41,17 +74,49 @@ function FindArtist() {
                     <button id="featured-artists-right-button">Right</button>
                 </div>
                 <div id="featured-artists-cards">
-                    <div className="artist-card">
-
+                    <div className="studio-card">
+                        <img className="studio-work-images" src={gokuu} alt="gokuu" />
+                        <div id="studio-info-and-book">
+                            <img id="studio-logo" src={gokuu} alt="" />
+                            <div id="studio-name">
+                            <p>Joash Omao Machoka</p>
+                            <p>Status: Available</p>
+                        </div>
+                        <button id="book-studio-button">Book</button>
+                        </div>
                     </div>
-                    <div className="artist-card">
-                        
+                    <div className="studio-card">
+                        <img className="studio-work-images" src={gokuu} alt="gokuu" />
+                        <div id="studio-info-and-book">
+                            <img id="studio-logo" src={gokuu} alt="" />
+                            <div id="studio-name">
+                            <p>Vincent Makhoha</p>
+                            <p>Status: Available</p>
+                        </div>
+                        <button id="book-studio-button">Book</button>
+                        </div>
                     </div>
-                    <div className="artist-card">
-                        
+                    <div className="studio-card">
+                        <img className="studio-work-images" src={gokuu} alt="gokuu" />
+                        <div id="studio-info-and-book">
+                            <img id="studio-logo" src={gokuu} alt="" />
+                            <div id="studio-name">
+                            <p>Malingson Kiprotich Rono</p>
+                            <p>Status: Not available</p>
+                        </div>
+                        <button id="book-studio-button">Book</button>
+                        </div>
                     </div>
-                    <div className="artist-card">
-                        
+                    <div className="studio-card">
+                        <img className="studio-work-images" src={gokuu} alt="gokuu" />
+                        <div id="studio-info-and-book">
+                            <img id="studio-logo" src={gokuu} alt="" />
+                            <div id="studio-name">
+                            <p>Moses Nyasimi</p>
+                            <p>Status: Available</p>
+                        </div>
+                        <button id="book-studio-button">Book</button>
+                        </div>
                     </div>
                 </div>
             </div>
