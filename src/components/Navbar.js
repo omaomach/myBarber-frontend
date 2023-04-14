@@ -15,9 +15,9 @@ function Navbar() {
             <img className="logo" src={logo} alt="logo"/>
             <nav ref={navRef}>
                 <div id="links-container">
-                    <a href="/find">Find an Artist</a>
-                    <a href="/#">Explore Tattoos</a>
-                    <a href="/#">Learn More About Tattoos</a>
+                    <a href="/find">Find a Barbar</a>
+                    <a href="/#">Explore Haircuts</a>
+                    <a href="/#">Articles on Hair Care</a>
                 </div>
 
                 <button className="nav-btn nav-close-btn" onClick={showNavbar}>

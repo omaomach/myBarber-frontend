@@ -4,7 +4,7 @@
 }
 #second-div {
     background-color: var(--mainColor);
-    margin-top: 2rem;
+    margin-top: 7rem;
     display: flex;
     flex-direction: column;
 }

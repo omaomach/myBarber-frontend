@@ -16,8 +16,8 @@ function App() {
       {/* <Landing /> */}
       {/* <Footer /> */}
       {/* <FindArtist /> */}
-      {/* <ArtistPage /> */}
-      <StudioPage />
+      <ArtistPage />
+      {/* <StudioPage /> */}
     </div>
   );
 }

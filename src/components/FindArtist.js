@@ -12,13 +12,14 @@ function FindArtist() {
 
                 </div>
                 <div id="filter-buttons">
-                    <button id="first-location-button"><p>Location</p></button>
+                    <button id="first-location-button"><p>Shop Location</p></button>
                     <button className="location-buttons"><p>Your Location</p></button>
                     <button className="location-buttons"><p>Studio Name</p></button>
-                    <button className="location-buttons"><p>Artist Name</p></button>
+                    <button className="location-buttons"><p>Barber Name</p></button>
+                    <button className="location-buttons"><p>Shop Rating</p></button>
                 </div>
                 <div id="featured-studios">
-                    <h2>Featured Studios</h2>
+                    <h2>Featured Shops</h2>
                     <button id="featured-studios-left-button">Left</button>
                     <button id="featured-studios-right-button">Right</button>
                 </div>
@@ -69,7 +70,7 @@ function FindArtist() {
                     </div>
                 </div>
                 <div id="featured-artists">
-                    <button id="artist-filter-button"><h2>Featured Artists</h2></button>
+                    <button id="artist-filter-button"><h2>Featured Stylists</h2></button>
                     <button id="featured-artists-left-button">Left</button>
                     <button id="featured-artists-right-button">Right</button>
                 </div>

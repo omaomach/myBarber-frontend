@@ -4,7 +4,7 @@
 }
 #secondary-parent {
     background-color: var(--mainColor);
-    margin-top: 2rem;    
+    margin-top: 7rem;    
 }
 #map-holder {
     width: 1825px;
@@ -32,7 +32,7 @@
 }
 #first-location-button {
     background-color: var(--mainColor);
-    width: 110px;
+    width: 140px;
     height: 35px;
     border: 2px solid var(--secondaryColor);
     cursor: pointer;
@@ -167,7 +167,7 @@
 #studio-logo {
     width: 50px;
     height: 50px;
-    border-radius: 50px;
+    border-radius: 100px;
 }
 #studio-name {
     margin-top: auto;
