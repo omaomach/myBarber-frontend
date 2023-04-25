@@ -1,18 +1,12 @@
-# Getting Started with Create React App
+# myBarber
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Created by Joash Omao Machoka on April 25th 2023
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+myBarber exposes hair stylist to the world. It will ensure that users are easily linked to barbers and it allows them to create appointments instead of having to go to a barber shop and having to wait an hour or more for their turn.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Screenshots
 
 ### `npm test`
 
