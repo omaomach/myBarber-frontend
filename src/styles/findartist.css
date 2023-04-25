@@ -1,0 +1,194 @@
+#find-an-artist-page-parent {
+    display: flex;
+    flex-direction: column;
+}
+#secondary-parent {
+    background-color: var(--mainColor);
+    margin-top: 7rem;    
+}
+#map-holder {
+    width: 1825px;
+    height: 800px;
+    background-color: var(--secondaryColor);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+#filter-buttons {
+    margin-left: 46.5px;
+    margin-top: 25px;
+}
+.location-buttons {
+    margin-left: 20px;
+    background-color: var(--mainColor);
+    width: 140px;
+    height: 35px;
+    border: 2px solid var(--secondaryColor);
+    cursor: pointer;
+    border-radius: 12px;
+    color: var(--secondaryColor);
+    font-weight: bold;
+    text-align: left;
+}
+#first-location-button {
+    background-color: var(--mainColor);
+    width: 140px;
+    height: 35px;
+    border: 2px solid var(--secondaryColor);
+    cursor: pointer;
+    border-radius: 12px;
+    color: var(--secondaryColor);
+    font-weight: bold;
+    text-align: left;
+}
+#filter-buttons p {
+    margin-left: 10px;
+}
+#featured-studios {
+    margin-top: 100px;
+    margin-left: 46.5px;
+    display: flex;
+}
+#featured-studios h2{
+    color: var(--textColor);
+}
+#featured-studios-left-button {
+    margin-left: 1505px;
+    background-color: var(--secondaryColor);
+    width: 50px;
+    height: 35px;
+    border: 1px solid var(--secondaryColor);
+    cursor: pointer;
+    border-radius: 12px;
+    color: var(--mainColor);
+    font-weight: bold;
+    text-align: center;
+}
+#featured-studios-right-button {
+    background-color: var(--secondaryColor);
+    width: 50px;
+    height: 35px;
+    border: 1px solid var(--secondaryColor);
+    cursor: pointer;
+    border-radius: 12px;
+    color: var(--mainColor);
+    font-weight: bold;
+    text-align: center;
+    margin-left: 20px;
+}
+#featured-studios-cards {
+    margin-left: 11.5px;
+    margin-top: 25px;
+    display: flex;
+    width: 1860px;
+}
+.studio-card {
+    width: 430px;
+    height: 470px;
+    background-color: var(--secondaryColor);
+    margin-left: 35px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#featured-artists {
+    margin-top: 75px;
+    margin-left: 46.5px;
+    display: flex;
+}
+#artist-filter-button {
+    background-color: var(--secondaryColor);
+    width: 230px;
+    height: 40px;
+    border: 2px solid var(--secondaryColor);
+    cursor: pointer;
+    border-radius: 12px;
+    color: var(--secondaryTextColor);
+    font-weight: bold;
+    text-align: left;
+}
+#artist-filter-button h2 {
+    margin-left: 20px;
+}
+#featured-artists-left-button {
+    margin-left: 1472px;
+    background-color: var(--secondaryColor);
+    width: 50px;
+    height: 35px;
+    border: 1px solid var(--secondaryColor);
+    cursor: pointer;
+    border-radius: 12px;
+    color: var(--mainColor);
+    font-weight: bold;
+    text-align: center;
+}
+#featured-artists-right-button {
+    background-color: var(--secondaryColor);
+    width: 50px;
+    height: 35px;
+    border: 2px solid var(--secondaryColor);
+    cursor: pointer;
+    border-radius: 12px;
+    color: var(--mainColor);
+    font-weight: bold;
+    text-align: center;
+    margin-left: 20px;
+}
+#featured-artists-cards {
+    margin-left: 11.5px;
+    margin-top: 30px;
+    display: flex;
+    width: 1860px;
+}
+.artist-card {
+    width: 430px;
+    height: 470px;
+    background-color: var(--secondaryColor);
+    margin-left: 35px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.studio-work-images {
+    width: 420px;
+    height: 380px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+#studio-info-and-book {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+    /* margin-right: auto; */
+    margin-top: 15px;
+}
+#studio-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+#studio-name {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    width: 252.6px;
+}
+#studio-name p {
+    line-height: 1.3;
+    color: var(--secondaryTextColor);
+    font-size: small;
+}
+#book-studio-button {
+    background-color: var(--mainColor);
+    width: 110px;
+    height: 35px;
+    border: 2px solid var(--secondaryColor);
+    cursor: pointer;
+    border-radius: 12px;
+    color: var(--secondaryTextColor);
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+}
