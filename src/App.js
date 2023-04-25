@@ -1,24 +1,18 @@
 import '../src/styles/main.css';
-import ArtistPage from './components/ArtistPage';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import FindArtist from './components/FindArtist';
-import Footer from './components/Footer';
 import Landing from './components/Landing'
-import Nav from './components/Nav'
-import Navbar from './components/Navbar'
-import StudioPage from './components/StudioPage'
 
 
 function App() {
   return (
-    <div>
-      {/* <Nav /> */}
-      {/* <Navbar /> */}
-      {/* <Landing /> */}
-      {/* <Footer /> */}
-      {/* <FindArtist /> */}
-      <ArtistPage />
-      {/* <StudioPage /> */}
-    </div>
+    <Router>
+      <Routes>
+      <Route path='/landing' element={<Landing />} />
+      <Route path='/findbarber' element={<FindArtist />} />
+      <Route path='/explore' element={<FindArtist />} />
+      </Routes>
+    </Router>
   );
 }
 

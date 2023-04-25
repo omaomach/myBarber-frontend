@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import logo from '../assets/logo.png'
 import "../styles/main.css";
 import { FaBars, FaTimes } from "react-icons/fa"
+import { NavLink } from 'react-router-dom'
 
 function Navbar() {
     const navRef = useRef();
@@ -15,9 +16,10 @@ function Navbar() {
             <img className="logo" src={logo} alt="logo"/>
             <nav ref={navRef}>
                 <div id="links-container">
-                    <a href="/find">Find a Barbar</a>
-                    <a href="/#">Explore Haircuts</a>
-                    <a href="/#">Articles on Hair Care</a>
+                    <NavLink to="/landing"><button className="nav-buttons">Landing</button></NavLink>
+                    <NavLink to="/findbarber"><button className="nav-buttons">Find a Barber</button></NavLink>
+                    <NavLink to="/explore"><button className="nav-buttons">Explore Haircuts</button></NavLink>
+                    <NavLink to="/articles"><button className="nav-buttons">Articles on Hair Care</button></NavLink>
                 </div>
 
                 <button className="nav-btn nav-close-btn" onClick={showNavbar}>
