@@ -31,6 +31,7 @@ function Landing() {
                         <p id="left-clients-holder-p">Clients on myBarbar</p>
                         <p id="left-clients-holder-p1">Checkout our customers' reviews on our services</p>
                         <button>Checkout reviews</button>
+
                     </div>
                     <div className="right-artists-holder">
                         <div className="clients-text">

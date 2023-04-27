@@ -13,7 +13,9 @@ function Navbar() {
 
     return (
         <header>
-            <img className="logo" src={logo} alt="logo"/>
+            <div className="logo">
+                <img src={logo} alt="logo"/>
+            </div>
             <nav ref={navRef}>
                 <div id="links-container">
                     <NavLink to="/landing">Home</NavLink>
