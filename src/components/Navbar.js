@@ -18,10 +18,10 @@ function Navbar() {
             </div>
             <nav ref={navRef}>
                 <div id="links-container">
-                    <NavLink to="/landing"><button className="nav-buttons">Landing</button></NavLink>
-                    <NavLink to="/findbarber"><button className="nav-buttons">Find a Barber</button></NavLink>
-                    <NavLink to="/explore"><button className="nav-buttons">Explore Haircuts</button></NavLink>
-                    <NavLink to="/articles"><button className="nav-buttons">Articles on Hair Care</button></NavLink>
+                    <NavLink to="/landing">Home</NavLink>
+                    <NavLink to="/findbarber">Find a Barber</NavLink>
+                    <NavLink to="/explore">Explore Haircuts</NavLink>
+                    <NavLink to="/articles">Articles on Hair Care</NavLink>
                 </div>
 
                 <button className="nav-btn nav-close-btn" onClick={showNavbar}>
