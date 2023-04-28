@@ -3,7 +3,7 @@ import "../styles/artistpage.css";
 import Navbar from "./Navbar";
 import gokuu from "../assets/gokuu.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUsers, faKeyboard } from '@fortawesome/free-solid-svg-icons'
+import { faUsers, faKeyboard, faShop } from '@fortawesome/free-solid-svg-icons'
 
 function ArtistPage() {
   return (
@@ -20,6 +20,10 @@ function ArtistPage() {
             <p id="followers-p">25 followers</p>
             <FontAwesomeIcon id="keyboard" size="2x" icon={faKeyboard} />
             <p id="comments-p">25 comments</p>
+          </div>
+          <div id="barber-shop">
+            <FontAwesomeIcon id="barber-shop-icon" size="2x" icon={faShop} />
+            <p id="barber-shop-name">Ruhan Barber Shop</p>
           </div>
         </div>
         <div id="third-div">

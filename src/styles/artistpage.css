@@ -149,6 +149,21 @@ color: var(--secondaryTextColor);
 #keyboard {
     margin-left: 15px;
 }
+#barber-shop {
+    margin-top: 18px;
+    display: flex;
+    flex-direction: row;
+    color: var(--thirdTextColor);
+}
+#barber-shop-icon {
+    height: 20px;
+}
+#barber-shop-name {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5px;
+    font-size: 14px;
+}
 
 
 
