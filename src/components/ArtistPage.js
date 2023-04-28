@@ -12,6 +12,7 @@ function ArtistPage() {
             <div id="image"></div>
           <h1 id="barber-name-h1">Machoka Joash Omao</h1>
           <h1 id="barber-nickname-h1">omaomachoka</h1>
+          <button id="edit-profile-button">Edit profile</button>
         </div>
         <div id="third-div">
           <div id="artist-work-images">
