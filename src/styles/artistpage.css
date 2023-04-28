@@ -12,14 +12,14 @@
     flex-direction: row;
 }
 #artist-details-div-1 {
-    width: 500px;
+    width: 300px;
     height: 840px;
-    background-color: var(--secondaryColor);
+    background-color: var(--mainColor);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    background: rgba(112, 21, 22);
     margin-left: 25px;
+    margin-top: 20px;
 }
 #third-div {
     display: flex;
@@ -44,22 +44,11 @@
     border-radius: 10px;
     margin-left: 10px;
 }
-#image-name-div {
-    width: 440px;
-    height: 200px;
-    background-color: var(--secondaryColor);
-    margin-top: 25px;
-    margin-left: 25px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: row;
-    background: rgba(112, 21, 22, .0);
-}
 #image {
-    width: 200px;
-    height: 200px;
-    background-color: var(--mainColor);
-    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    background-color: var(--secondaryColor);
+    border-radius: 50%;
 }
 #name {
     margin-left: 20px;
@@ -112,6 +101,29 @@
 #artist-work-text {
 margin-left: 25px;
 color: var(--secondaryTextColor);
+}
+#barber-name-h1 {
+    margin-top: 15px;
+    font-weight: bold;
+    color: var(--secondaryTextColor);
+}
+#barber-nickname-h1 {
+    font-size: 20px;
+    margin-top: 5px;
+    color: var(--thirdTextColor);
+}
+#edit-profile-button {
+    background-color: var(--secondaryColor);
+    width: 100%;
+    height: 35px;
+    border: 1px solid var(--thirdTextColor);
+    cursor: pointer;
+    border-radius: 6px;
+    color: var(--secondaryTextColor);
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 16px;
+    margin-top: 20px;
 }
 
 

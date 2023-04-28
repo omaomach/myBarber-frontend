@@ -4,7 +4,7 @@
 }
 #second-div {
     background-color: var(--mainColor);
-    margin-top: 7rem;
+    margin-top: 10rem;
     display: flex;
     flex-direction: column;
 }
@@ -12,7 +12,7 @@
     width: 1826px;
     height: 300px;
     background-color: var(--secondaryColor);
-    border-radius: 10px;
+    border-radius: 6px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -22,7 +22,7 @@
     height: 35px;
     border: 2px solid var(--secondaryColor);
     cursor: pointer;
-    border-radius: 12px;
+    border-radius: 6px;
     color: var(--secondaryColor);
     font-weight: bold;
     text-align: left;
@@ -45,12 +45,12 @@
     height: 460px;
     background-color: var(--secondaryColor);
     text-align: center;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 #studio-members-image {
     width: 900px;
     height: 450px;
-    border-radius: 10px;
+    border-radius: 6px;
     margin-top: 5px;
 }
 #studio-text {
@@ -60,5 +60,5 @@
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 20px;
-    border-radius: 10px;
+    border-radius: 6px;
 }

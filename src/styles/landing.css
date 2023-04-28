@@ -30,7 +30,7 @@ body {
     height: 35px;
     border: 1px solid var(--secondaryColor);
     cursor: pointer;
-    border-radius: 12px;
+    border-radius: 6px;
     color: var(--textColor);
     font-weight: bold;
 }
@@ -38,7 +38,7 @@ body {
 .holder {
     background-color: var(--mainColor);
     width: 710px;
-    border-radius: 10px;
+    border-radius: 6px;
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
@@ -47,7 +47,7 @@ body {
 .holder-1 {
     background-color: var(--mainColor);
     width: 770px;
-    border-radius: 10px;
+    border-radius: 6px;
     margin-top: 22px;
     margin-left: auto;
     margin-right: auto;
@@ -80,7 +80,7 @@ body {
     background-color: var(--secondaryColor);
     width: 630px;
     height: 700px;
-    border-radius: 10px;
+    border-radius: 6px;
     color: var(--textColor);
     font-size: medium;
     font-weight: bold;
@@ -94,7 +94,7 @@ body {
     height: 35px;
     border: 1px solid var(--mainColor);
     cursor: pointer;
-    border-radius: 12px;
+    border-radius: 6px;
     color: var(--textColor);
     font-weight: bold;
 }
@@ -118,7 +118,7 @@ body {
     width: 615px;
     height: 525px;
     border: 2px solid var(--secondaryColor);
-    border-radius: 10px;
+    border-radius: 6px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 7px;
@@ -128,7 +128,7 @@ body {
     background-color: var(--secondaryColor);
     width: 630px;
     height: 700px;
-    border-radius: 10px;
+    border-radius: 6px;
     color: var(--textColor);
     font-weight: bold;
     margin-left: 15px;
@@ -141,7 +141,7 @@ body {
     height: 35px;
     border: 1px solid var(--mainColor);
     cursor: pointer;
-    border-radius: 12px;
+    border-radius: 6px;
     color: var(--textColor);
     font-weight: bold;
 }
@@ -186,7 +186,7 @@ body {
     background-color: var(--secondaryColor);
     width: 420px;
     height: 460px;
-    border-radius: 10px;
+    border-radius: 6px;
     border: 1px solid var(--mainColor);
     margin-left: 0;
 }
@@ -198,14 +198,14 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 8.5px;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 .get-piercing-today {
     background-color: var(--secondaryColor);
     width: 420px;
     height: 460px;
-    border-radius: 10px;
+    border-radius: 6px;
     border: 1px solid var(--mainColor);
     margin-left: 15px;
 }
@@ -214,7 +214,7 @@ body {
     background-color: var(--secondaryColor);
     width: 420px;
     height: 460px;
-    border-radius: 10px;
+    border-radius: 6px;
     border: 1px solid var(--mainColor);
     margin-left: 15px;
 }
@@ -234,7 +234,7 @@ body {
     text-align: left;
     color: var(--secondaryTextColor);
     margin-top: 70px;
-    border-radius: 10px;
+    border-radius: 6px;
     display: flex;
     flex-direction: row;
 }
@@ -242,13 +242,13 @@ body {
 .reviews-card {
     width: 500px;
     border: 2px solid var(--mainColor);
-    border-radius: 10px;
+    border-radius: 6px;
     background-color: var(--secondaryColor);
 }
 
 .reviews-text {
     width: 500px;
-    border-radius: 10px;
+    border-radius: 6px;
     margin-bottom: 10px;
 }
 
@@ -269,7 +269,7 @@ body {
     background-color: #2A272A;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 10px;
+    border-radius: 6px;
     margin-top: 6px;
     margin-bottom: 6px;
 }
@@ -288,7 +288,7 @@ body {
     margin-top: 175px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 10px;
+    border-radius: 6px;
     text-align: left;
     color: var(--textColor);
     display: flex;
@@ -327,7 +327,7 @@ body {
     height: 35px;
     border: 1px solid var(--secondaryColor);
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 6px;
     color: var(--textColor);
     font-weight: bold;
     margin-left: 30px;
@@ -337,7 +337,7 @@ body {
     background-color: var(--secondaryColor);
     width: 900px;
     height: 450px;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 @media screen and (max-width:600px) {
