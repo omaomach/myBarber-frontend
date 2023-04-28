@@ -12,8 +12,8 @@ function App() {
       <Routes>
       <Route path='/landing' element={<Landing />} />
       <Route path='/findbarber' element={<FindArtist />} />
-      <Route path='/artistpage' element={<ArtistPage />} />
-      <Route path='/studiopage' element={<StudioPage />} />
+      <Route path='/barberpage' element={<ArtistPage />} />
+      <Route path='/shoppage' element={<StudioPage />} />
       </Routes>
     </Router>
   );
