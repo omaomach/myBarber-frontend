@@ -56,9 +56,9 @@ function ArtistPage() {
 
           <div id="artist-details-div">
             <div id="artist-option-buttons">
-              <button id="option-button-1">Book Artist</button>
-              <button className="option-buttons">Review Artist</button>
-              <button className="option-buttons">Report Artist</button>
+              <button id="option-button-1">Book Barber</button>
+              <button className="option-buttons">Review Barber</button>
+              <button className="option-buttons">Report Barber</button>
             </div>
           </div>
         </div>

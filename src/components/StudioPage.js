@@ -11,9 +11,9 @@ function StudioPage() {
                 <div id="shop-image">
 
                 </div>
-                <button id="locate-shop"><p>Locate Studio</p></button>
+                <button id="locate-shop"><p>Locate Shop</p></button>
                 <div id="featured-artists">
-                    <button id="artist-filter-button"><h2>Featured Artists</h2></button>
+                    <button id="artist-filter-button"><h2>Featured Shops</h2></button>
                     <button id="featured-artists-left-button">Left</button>
                     <button id="featured-artists-right-button">Right</button>
                 </div>

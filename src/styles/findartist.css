@@ -51,6 +51,7 @@
 }
 #featured-studios h2{
     color: var(--textColor);
+    font-size: 26.6px;
 }
 #featured-studios-left-button {
     margin-left: 1505px;
