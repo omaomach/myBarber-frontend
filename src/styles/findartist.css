@@ -11,7 +11,7 @@
     height: 800px;
     background-color: var(--secondaryColor);
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
     border-radius: 6px;
 }
 #filter-buttons {
