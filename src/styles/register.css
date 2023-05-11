@@ -13,3 +13,24 @@
     width: 50%;
     background-color: beige;
 }
+#register-h1 {
+    margin-left: 50px;
+    margin-top: 100px;
+}
+#create-your-account-now {
+    margin-left: 50px;
+    margin-top: 25px;
+}
+#field-container {
+    margin-top: 70px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+#have-an-account {
+    margin-top: 50px;
+}
