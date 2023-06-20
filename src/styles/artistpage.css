@@ -36,7 +36,7 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
     position: fixed;
     margin-left: 22%;
-    margin-top: 760px;
+    margin-top: 790px;
 }
 #artist-work-images {
     width: 1353px;
@@ -123,7 +123,46 @@ color: var(--secondaryTextColor);
     font-weight: bold;
     text-align: center;
     padding: 5px 16px;
-    margin-top: 20px;
+    margin-top: 18px;
+}
+#followers-comments-div {
+    margin-top: 18px;
+    display: flex;
+    flex-direction: row;
+    color: var(--thirdTextColor);
+}
+#followers-p {
+    margin-left: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 14px;
+}
+#comments-p {
+    margin-left: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 14px;
+}
+#followers-icon {
+    width: 22.5px;
+}
+#keyboard {
+    margin-left: 15px;
+}
+#barber-shop {
+    margin-top: 18px;
+    display: flex;
+    flex-direction: row;
+    color: var(--thirdTextColor);
+}
+#barber-shop-icon {
+    height: 20px;
+}
+#barber-shop-name {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5px;
+    font-size: 14px;
 }
 
 

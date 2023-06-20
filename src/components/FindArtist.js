@@ -14,7 +14,7 @@ function FindArtist() {
                 <div id="filter-buttons">
                     <button id="first-location-button"><p>Shop Location</p></button>
                     <button className="location-buttons"><p>Your Location</p></button>
-                    <button className="location-buttons"><p>Studio Name</p></button>
+                    <button className="location-buttons"><p>Shop Name</p></button>
                     <button className="location-buttons"><p>Barber Name</p></button>
                     <button className="location-buttons"><p>Shop Rating</p></button>
                 </div>

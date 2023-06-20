@@ -4,6 +4,7 @@ import FindArtist from './components/FindArtist';
 import Landing from './components/Landing'
 import ArtistPage from './components/ArtistPage'
 import StudioPage from './components/StudioPage'
+import Register from './components/Register';
 
 
 function App() {
@@ -12,8 +13,9 @@ function App() {
       <Routes>
       <Route path='/landing' element={<Landing />} />
       <Route path='/findbarber' element={<FindArtist />} />
-      <Route path='/artistpage' element={<ArtistPage />} />
-      <Route path='/studiopage' element={<StudioPage />} />
+      <Route path='/barberpage' element={<ArtistPage />} />
+      <Route path='/shoppage' element={<StudioPage />} />
+      <Route path='/register' element={<Register />} />
       </Routes>
     </Router>
   );

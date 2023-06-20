@@ -11,7 +11,7 @@
     height: 800px;
     background-color: var(--secondaryColor);
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
     border-radius: 6px;
 }
 #filter-buttons {
@@ -51,6 +51,7 @@
 }
 #featured-studios h2{
     color: var(--textColor);
+    font-size: 26.6px;
 }
 #featured-studios-left-button {
     margin-left: 1505px;
