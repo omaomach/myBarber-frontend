@@ -22,9 +22,9 @@ function Register() {
             
         </div>
         <div className="straight-lines">
-            <div style={{ borderTop: "2px solid #fff ", marginLeft: 20, marginRight: 20, width: 210 }}></div>
-            <p id="straights-line-p">or</p>
-            <div style={{ borderTop: "2px solid #fff ", marginLeft: 20, marginRight: 20, width: 210 }}></div>
+            <div style={{ borderTop: "1px solid #fff ", marginLeft: 20, marginRight: 20, width: 210 }}></div>
+            <h3 id="straights-line-h3">or</h3>
+            <div style={{ borderTop: "1px solid #fff ", marginLeft: 20, marginRight: 20, width: 210 }}></div>
         </div>
         <h3 id="have-an-account">Have an account? Login</h3>
       </div>
