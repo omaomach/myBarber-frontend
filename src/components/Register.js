@@ -1,5 +1,8 @@
 import React from "react";
 import "../styles/register.css";
+import GoogleButton from 'react-google-button'
+import { StyleSheet, Text, View } from "react-native"
+import { StatusBar } from "react-native-web";
 
 function Register() {
   return (
@@ -26,10 +29,27 @@ function Register() {
             <h3 id="straights-line-h3">or</h3>
             <div style={{ borderTop: "1px solid #fff ", marginLeft: 20, marginRight: 20, width: 210 }}></div>
         </div>
+        <View style = {styles.container}>
+          <Text>React google button!</Text>
+          <StatusBar style = "auto" />
+          <GoogleButton
+            onClick={() => {
+              console.log("Google button clicked")
+            }} />
+        </View>
         <h3 id="have-an-account">Have an account? Login</h3>
       </div>
     </div>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center"
+  }
+})
 
 export default Register;
